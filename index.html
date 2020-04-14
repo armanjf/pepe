@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +8,11 @@
     
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -22,15 +28,9 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-
   </head>
   <body>
-
+	  
 	 <div class="py-2 bg-primary">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
@@ -56,15 +56,13 @@
 		  </div>
     </div>
 
-<!-- nav -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
 	    <div class="container d-flex align-items-center">
-	    	<a href="index.html">
-	    <img class="img-responsive" src="images/logocmnbm.png" align="text-center" width="110" height="64">
-	     </a>
+	    	<a class="navbar-brand" href="index.html" ><img src="images/logocmnbm.png" alt=""></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
-	      </button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; 
+	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Inicio</a></li>
@@ -76,6 +74,8 @@
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="about.html">Conocenos</a>
 							<a class="dropdown-item" href="servicios.html">Servicios</a>
+							<!--<a class="dropdown-item" href="career.html">Career</a>-->
+							<!--<a class="dropdown-item" href="testimonial.html">Testimonios</a>-->
 							<a class="dropdown-item" href="aviso.html">Aviso de Privacidad</a>
 						</div>
 					</li>
@@ -95,262 +95,626 @@
 							<a class="dropdown-item" href="admin.html">Administrativo</a> 
 						</div>
 					</li>
+	        	
+	        	<!--<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
-
     <!-- END nav -->
-    
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bannerabout.jpg');">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Nosotros</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Inicio<i class="ion-ios-arrow-forward"></i></a></span> <span>Nosotros<i class="ion-ios-arrow-forward"></i></span></p>
+
+<br>   
+<center> 
+	
+  <!--  <section  class="home-slider owl-carousel" >	
+   	
+      <div class="slider-item" style="background-image:url(images/bg99.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 text-center ftco-animate">
+            <h1 class="mb-4"> <span></span></h1>
           </div>
         </div>
+        </div>
       </div>
-    </section>
+      <div class="slider-item" style="background-image:url(images/bg91.jpg);" >
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 text-center ftco-animate">
+            <h1 class="mb-4"> <span></span></h1>   
+             <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="servicios.html" class="btn btn-secondary px-4 py-3 mt-3 align-items-left">Leer Más</a></p>         
+          </div>
+                     
+        </div>
+        </div>
+      </div>
+   
+    
+      <div class="slider-item" style="background-image:url(images/lab51.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 text-center ftco-animate">
+            <h1 class="mb-4"> <span></span></h1>
+            
+          </div>
+                         <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; <a href="lab.html" class="btn btn-secondary px-4 py-3 mt-3">Leer Más</a></p> --
+        </div>
+        </div>
+      </div>
+      <div class="slider-item" style="background-image:url(images/bg92.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 text-center ftco-animate">
+            <h1 class="mb-4"><span>  </span></h1> 
+            <p>  <a href="endo.html" class="btn btn-secondary px-4 py-3 mt-3">Leer Más</a></p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section> -->
+	
+	<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+ <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/bg99.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+ 
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/bg91.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+       
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/bg92.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        
+      </div>   
+    </div>
+	 <div class="carousel-item">
+      <img src="images/lab51.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+</center>
 		
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 order-md-last wrap-about py-5 wrap-about bg-light">
 						<div class="text px-4 ftco-animate">
-	          	<h2 class="mb-4">MISIÓN</h2>
-							<p align="justify">Somos un grupo de especialistas dedicados a ofrecer una alternativa terapéutica integral a través de la medicina regenerativa y las ciencias aplicadas para el diagnóstico y diseño de tratamientos especializados, basados en biotecnología y biología molecular.
+	          	<h2 class="mb-4">Bienvenidos a CMNBm</h2>
 
-                            </p><br>
+							<p>En el Centro Médico Nacional de Biología Molecular ademas de ofrecerte nuestros servicios estamos comprometidos con el conocimiento y a la vanguardía para que toda la población pueda conocer más sobre distintas enfermedades que padece nuestra sociedad día con día.</p><br>
+							<p>
+								<iframe width="400" height="215" src="https://www.youtube.com/embed/BrSk--oo0k8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
+								<iframe width="400" height="215" src="https://www.youtube.com/embed/A7ajwi9FrHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br> 
 
-							<p align="justify">Atendemos necesidades en el área de salud, transformando vidas con soluciones médicas de vanguardia y capacitación profesional. Nuestra motivación es contribuir al bienestar social y ambiental, con la finalidad de brindar servicios eficientes de alta calidad y calidez humana a nuestros pacientes a nivel nacional e internacional.
- 							</p><br>
-							
-							<!--<img align="justify" src="images/mision.jpg" alt="" align="text-center"><br><br> -->
-							<img class="img-responsive" src="images/mision.jpg"  width="400" height="300"> 
+								
 
-
-						<h2 class="mb-4">VISIÓN</h2>
-							<p align="justify">Poner al alcance de la población mexicana e internacional servicios de salud que mantengan y fomenten la restauración y salud celular mediante herramientas médicas de biotecnología y biologia molecular, salvaguardando siempre la integridad personal
-							</p><br>
-
-							<!--<img align="justify" src="images/vision.jpg" alt="" align="text-center"><br><br> -->
-							<img class="img-responsive" src="images/vision.jpg"  width="400" height="300"> 
-
-						<h2 class="mb-4">VALORES</h2>
-							<p align="justify">*Respeto y empatía<br>
-							*Honestidad y compromiso<br>
-							*Trabajo en equipo<br>
-							*Actitud innovadora responsable<br>
-
-							</p><br>
-							<!--<img align="justify" src="images/valores.jpg" alt="" align="text-center"><br><br> -->
-							<img class="img-responsive" src="images/valores.jpg"  width="400" height="300"> 
-							
-							
+							</p>
 						</div>
 					</div>
+					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
+          	<h2 class="mb-4">Centro Medico Macional de Biologia Molecular</h2>
+						<p>Apoyando a tu salud y economia </p>
+						<div class="row mt-5">
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
+									<div class="text">
+										<h3>Estudio Socieconomico</h3>
+										<p align="justify">Nuestro servicio esta diseñado para ayudarte, aquí podras acceder rapidamente y sin costo a descuentos de hasta un 20% conservando la calidad que nos caracteriza.<br></p>
+										<h14>*Aplican restricciones. </h14>
+									</div>
+								</div>
+							</div>
+						<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-reading"></span></div>
+									<div class="text">
+										<h3>Membresia</h3>
+										<p>Haz escuchado de nosotros? </p>
+									</div>
+								</div>
+							</div> 
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-diploma"></span></div>
+									<div class="text">
+									<a href="#dos"> <h3>Cursos</h3></a>	
+										<p align="justify">
+											El Departamento de Coordinación Académica del Centro Médico Nacional de Biología Molecular A.C. se encarga de facilitar al personal de la salud cursos y diplomados con estándares de calidad basados en las políticas que nos establece la Secretaría de Educación Pública.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-education"></span></div>
+									<div class="text">
+									<a href="servicios.html">	<h3>Paquetes Quirúrgicos</h3> </a>
+										<p>.</p>
+									</div>
+								</div>
+							</div>
+					<!--		<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-jigsaw"></span></div>
+									<div class="text">
+										<h3>Creative Lessons</h3>
+										<p></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-kids"></span></div>
+									<div class="text">
+										<h3>Sports Facilities</h3>
+										<p></p>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="ftco-intro" style="background-image: url(images/bg13.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<h2>Haz una cita con uno de nuestros médicos</h2>
+						<p class="mb-0">Nuestros especilistas estan esperando</p>
+					</div>
+					<div class="col-md-3 d-flex align-items-center">
+						<p class="mb-0"><a href="contact.html" class="btn btn-secondary px-4 py-3">Agendar Cita</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-		<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-          	<h2 class="mb-4">NUESTRA HISTORIA</h2>
-						<p align="justify">El Centro Médico Nacional de Biología Molecular A.C. “CMNBm” fue creado en 2010 en la ciudad de Puebla, México. Sus fundadores médicos e investigadores de formación nacional e internacional tomando en cuenta la tendencia médica del futuro, invirtieron sus esfuerzos en formar un hospital donde se albergó a un grupo de especialistas, maestros y doctores en ciencias con la finalidad de proporcionar servicios que mejoraren la salud y calidad de vida de las personas que lo requieran.<br><br>
+		<section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+            <h2 class="mb-4"><span></span>Especialidades</h2>
+            <p>Son algunas con las que cuenta el Centro Médico Nacional de Biología Molecular</p>
+          </div>
+        </div>	
+				<div class="row">
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/lab.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Laboratorio</h3>
+								<span class="position mb-2"></span>
+								<div class="faded">
+									<p></p>
+									<!--<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>-->
+	              </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/medicinage.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Medicina General y Especialidades</h3>
+								<span class="position mb-2"></span>
+								<div class="faded">
+									<p></p>
+	              </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/endoscopia1.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Endoscopía</h3>
+								<span class="position mb-2"></span>
+								<div class="faded">
+									<p></p>
+								
+	              </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/cirugia1.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Cirugía convencional y por laparoscopia.</h3>
+								<span class="position mb-2"></span>
+								<div class="faded">
+									<p></p>
+									
+	              </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-					    <!--<img align="justify" src="images/nosotros.jpg" alt="" align="text-center"> -->
-					    <img class="img-responsive" src="images/nosotros.jpg"  width="400" height="300"> <br><br>
 
-						De esta forma ese mismo año inauguraron su área de consulta externa y evaluación del estrés oxidativo. Con esto, se crearon los primeros criterios de bioseguridad para la aplicación de antioxidantes y ozono medicinal en México. Este sistema dio grandes frutos y permitió tratar a un gran número de pacientes de forma exitosa. En el año 2014 se adopta el modelo médico basado en medicina regenerativa con la finalidad de restaurar y fomentar la salud celular de las personas enfermas permitiendo crear una unidad de terapia celular e ingeniería de tejidos blandos con el propósito de intervenir en enfermedades que cursan con lesiones crónicas por pie diabético, úlceras venosas, lesiones por presión, desgaste articular u osteoartritis y dolor lumbar crónico o lumbalgia.<br><br>
 
-						<!--<img align="justify" src="images/enfe3.jpg" alt="" align="text-center">-->
-						<img class="img-responsive" src="images/enfe3.jpg"  width="400" height="300"><br><br>
+		
+		<section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+            <h2 class="mb-4"><span></span>Testimonios</h2>
+            <p>Testimonios de pacientes reales, los cuales nos cuentan como a sido su experiencia dentro del Centro Médico Nacional de Biología Molecular</p>
+          </div>
+        </div>	
+				<div class="row">
+					<div class="col-md-6 col-lg-4 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<iframe width="300" height="300" src="https://www.youtube.com/embed/FvfAe78udlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<iframe width="300" height="300" src="https://www.youtube.com/embed/hFG4gVhV45o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<iframe width="300" height="300" src="https://www.youtube.com/embed/iwgNz97Ihc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
 
-						El desarrollo en conjunto de estas herramientas medicas proporcionaron una identidad única al CMNBm, permitiendo crear cursos, diplomados y talleres para la formación médica profesional con el respaldo de instituciones gubernamentales del más alto prestigio en México. En el año 2016, el CMNBm inaugura su área de restauración orgánica mediante la estimulación de proteínas propias al organismo para mejorar la salud celular proporcionando un apoyo médico complementario ideal para el tratamiento integral de enfermedades como diabetes, insuficiencia renal, insuficiencia hepática o cirrosis, enfermedades autoinmunes como artritis, lupus eritematoso sistémico, colitis ulcerosa, enfermedad de Crohn y cáncer entre otras.<br><br>
-
-						<!--<img align="justify" src="images/docs2.jpg" alt="" align="text-center"><br><br> -->
-						<img class="img-responsive" src="images/docs2.jpg"  width="400" height="300">
-
-						Actualmente, el CMNBm orienta sus esfuerzos al desarrollo de su departamento de biología molecular con la finalidad de proporcionar una gran calidad diagnóstica y continuando con su compromiso social sigue facilitando sus servicios mediante un apoyo económico a sus usuarios a través de descuentos y/o donaciones parciales o totales de tratamientos basados en medicina regenerativa.
-
-						
-
-					    </p>
-
+		<section id="dos" class="ftco-section">
+			<div class="container" id="">
+				<div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+            <h2 class="mb-4"><span>Nuestros</span> Cursos</h2>
+            <p>Te invitamos a conocer más detalles sobre nuestra oferta educativa, sé un agente de cambio para la salud y el beneficio de tus pacientes.</p>
+          </div>
+        </div>	
+				<div class="row">
+					<div class="col-md-6 course d-lg-flex ftco-animate">
+						<div class="img" style="background-image: url(images/maestria2.jpg);"></div>
+						<div class="text bg-light p-4">
+							<h3><a href="#">Maestría en Medicina Regenerativa</a></h3>
+							<p class="subheading"><span>Duración:</span> 2 años</p>
+							<p>La Maestría en Medicina Regenerativa forma profesionales capaces de mejorar la calidad de vida del ser humano, utilizando para ello el avance de la medicina regenerativa y biotecnología de última generación.</p>
+							<p class="mb-0"><a href="academica.html" class="btn btn-secondary px-4 py-3">Conoce más</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 course d-lg-flex ftco-animate">
+						<div class="img" style="background-image: url(images/mono.jpg);"></div>
+						<div class="text bg-light p-4">
+							<h3><a href="#">Diplomado Teórico-Práctico: Aplicación de Células Monononucleares en Medicina Regenerativa</a></h3>
+							<p class="subheading"><span>Duración:</span> 9 Meses</p>
+							<p>Este diplomado tiene como objetivo desarrollar las capacidades de los participantes en el campo de la medicina regenerativa para la aplicación de terapias celulares locales.</p>
+							<p class="mb-0"><a href="academica.html" class="btn btn-secondary px-4 py-3">Conoce más</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 course d-lg-flex ftco-animate">
+						<div class="img" style="background-image: url(images/modulacion.jpg);"></div>
+						<div class="text bg-light p-4">
+							<h3><a href="#">Curso de Modulación Fisiológica</a></h3>
+							<p class="subheading"><span>Duración:</span> 2 Sesiones(En Linea)</p>
+							<p>El propósito de este curso es desarrollar las capacidades de los participantes en el campo de la ozonoterapia médica aplicada a la medicina regenerativa.</p>
+							<p class="mb-0"><a href="academica.html" class="btn btn-secondary px-4 py-3">Conoce más</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 course d-lg-flex ftco-animate">
+						<div class="img" style="background-image: url(images/ozono.jpg);"></div>
+						<div class="text bg-light p-4">
+							<h3><a href="#">Curso Avanzado de Ozonoterapia en Medicina Regenerativa</a></h3>
+							<p class="subheading"><span>Duración:</span> 2 Meses</p>
+							<p>Este curso es avalado por el CMNBm es impartido exclusivamente para médicos y nutriólogos que quieran conocer aspectos generales sobre modulación fisiológica</p>
+							<p class="mb-0"><a href="academica.html" class="btn btn-secondary px-4 py-3">Conoce más</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg12.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
-          		<div class="col-md-8 text-center heading-section heading-section-black ftco-animate">
-            		<h2 class="mb-4"><span>10 Años</span> de excelente servicio</h2>
-            		<p style="color:black"></p>
-         		 </div>
-        	</div>	
-
+          <div class="col-md-8 text-center heading-section heading-section-black ftco-animate">
+            <h2 class="mb-4"><span>10 años</span> de excelente servicio</h2>
+            <p align="justify" style="color:black">10 años en los cuales el Centro Medico Nacional de Biologia Molecular a generado brindado atención a pacientes con distintas patologías, realizado pruebas de laboratorio y preparado alumnos con la mejor calidad. </p>
+          </div>
+        </div>	
     		<div class="row d-md-flex align-items-center justify-content-center">
     			<div class="col-lg-10">
     				<div class="row d-md-flex align-items-center">
-		          		<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            		<div class="block-18">
-		            			<div class="icon"><span class="flaticon-doctor"></span></div>
-		              				<div class="text">
-		                				<strong class="number" data-number="20">0</strong>
-		                					<span>Doctores preparados</span>
-		              				</div>
-		            		</div>
-		          		</div>
-
-		          	<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            	<div class="block-18">
-		            		<div class="icon"><span class="flaticon-doctor"></span></div>
-		              			<div class="text">
-		                			<strong class="number" data-number="10000">0</strong>
-		                				<span>	<p>Pacientes felicies</p></span>
-		              			</div>
-		            	</div>
-		          </div>
-		          
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="10000">0</strong>
-		                <span>Tratamientos aplicados</span>
-		              </div>
-		            </div>
-		          </div>
-		          
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="2920">0</strong>
-		                <span>Dias en servicio</span>
+		                <strong class="number" data-number="18">0</strong>
+		                <span>Profesionales del area de la salud</span>
 		              </div>
 		            </div>
 		          </div>
-
-	                </div>
-                </div>
-            </div>
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <strong class="number" data-number="351">0</strong>
+		                <span>Pacientes atendidos al año</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <strong class="number" data-number="564">0</strong>
+		                <span>Pruebas de laboratorio</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <strong class="number" data-number="45">0</strong>
+		                <span>Alumnos preparados</span>
+		              </div>
+		            </div>
+		          </div>
+	          </div>
+          </div>
+        </div>
     	</div>
     </section>
 
-    <section class="ftco-section testimony-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-2">
+   
+
+    <section class="ftco-section">
+
+    	<div class="container" >
+
+    		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-          	<span class="subheading">Testimonios</span>
-            <h2 class="mb-4"><span></span> </h2>
-            <p>Las opiniones y experiencias de algunos de nuestros colaboradores externos.</p>
+            <h2 class="mb-4"><span>Renta de</span> equipos.</h2>
+            <p>Si eres medico y requieres algún servicio en especial conoce las promociones que tenemos sobre nuestras areas y equipo medico.</p>
           </div>
         </div>
-        <div class="row ftco-animate justify-content-center">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel">
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_3.jpg)">
-                  </div>
-                  <div class="text ml-2 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p></p>
-                    <p class="name">Jose Guillermo Pacheco Paredes</p>
-                    <span class="position">Nefrologia</span>
-                  </div>
+    		<div class="row">
+        	<div class="col-md-6 col-lg-3 ftco-animate">
+        		<div class="pricing-entry bg-light pb-4 text-center">
+        			<div>
+	        			<h3 class="mb-3">Renta de equipo de endoscopia.</h3>
+	        			<p><span class="price">$3900.00</span> <span class="per">/ pesos</span></p>
+	        		</div>
+	        		<div class="img" style="background-image: url(images/endoscopia.jpg);"></div>
+	        		<div class="px-4">
+	        			<p></p>
+        			</div>
+        			<p class="button text-center"><a href="endo.html" class="btn btn-primary px-4 py-3">Más Información</a></p>
+        		</div>
+        	</div>
+    
+        	<div class="col-md-6 col-lg-3 ftco-animate">
+        		<div class="pricing-entry bg-light pb-4 text-center">
+        			<div>
+	        			<h3 class="mb-3">Renta de quirofanos. </h3>
+	        			<p><span class="price">$2000.00</span> <span class="per">/ pesos</span></p>
+	        		</div>
+	        		<div class="img" style="background-image: url(images/quiro.jpg);"></div>
+        			<div class="px-4">
+	        			<p></p>
+        			</div>
+        			<p class="button text-center"><a href="servicios.html" class="btn btn-secondary px-4 py-3">Más Información</a></p>
+        		</div>
+        	</div>
+       
+       <div class="col-md-6 col-lg-3 ftco-animate">
+        		<div class="pricing-entry bg-light active pb-4 text-center">
+        			<div>
+	        			<h3 class="mb-3">Renta de sala de laparoscopia.</h3>
+	        			<p><span class="price">$5000.00</span> <span class="per">/ pesos</span></p>
+	        		</div>
+	        		<div class="img" style="background-image: url(images/laparo2.jpg);"></div>
+        			<div class="px-4">
+	        			<p></p>
+        			</div>
+        		<p class="button text-center"><a href="lapa.html" class="btn btn-tertiary px-4 py-3">Más Información</a></p> 
+        		</div>
+        	</div> 
+        	
+        	<div class="col-md-6 col-lg-3 ftco-animate">
+        		<div class="pricing-entry bg-light pb-4 text-center">
+        			<div>
+	        			<h3 class="mb-3">Hospitalización</h3>
+	        			<p><span class="price">$1625.00</span> <span class="per">/ pesos</span></p>
+	        		</div>
+	        		<div class="img" style="background-image: url(images/enferm.jpg);"></div>
+        			<div class="px-4">
+	        			<p></p>
+        			</div>
+        			<p class="button text-center"><a href="servicios.html" class="btn btn-quarternary px-4 py-3">Más Información</a></p>
+        		</div>
+        	</div>
+
+        </div>
+    	</div>
+    	
+    </section>
+
+		<section class="ftco-section bg-light">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+            <h2 class="mb-4"><span></span> Noticias</h2>
+            <p></p>
+          </div>
+         </div> 
+        </div>
+
+
+	<div class="row">
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="#" class="block-20 d-flex align-items-end" style="background-image: url('images/laparo.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">27</span>
+                  <span class="mos">Noviembre</span>
+                  <span class="yr">2019</span>
                 </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_2.jpg)">
-                  </div>
-                  <div class="text ml-2 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p></p>
-                    <p class="name">Ildelfonso Hernández Vera</p>
-                    <span class="position">Medicina interna</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_3.jpg)">
-                  </div>
-                  <div class="text ml-2 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p></p>
-                    <p class="name">Arturo Martínez Morales</p>
-                    <span class="position">Cirugía</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_2.jpg)">
-                  </div>
-                  <div class="text ml-2 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p></p>
-                    <p class="name">Gerardo Meza González</p>
-                    <span class="position">Cirugía</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/teacher-8.jpg)">
-                  </div>
-                  <div class="text ml-2 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p></p>
-                    <p class="name">Sandra Elizabeth Tezmol Ramírez</p>
-                    <span class="position">Medicina Interna</span>
-                  </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">Inaguración endoscopía</a></h3>
+                <p></p>
+                <div class="d-flex align-items-center mt-4">
+	                
+	                <p class="ml-auto mb-0">
+	                	
+	                	
+	                </p>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="#" class="block-20 d-flex align-items-end" style="background-image: url('images/cancun.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">6</span>
+                  <span class="mos">Diciembre</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+              	<h3 class="heading"><a href="#">Congreso Medicina Regenerativa: Cancún</a></h3>
+                
+                <p></p>
+                <div class="d-flex align-items-center mt-4">
+	                
+	                <p class="ml-auto mb-0">
+	                	
+	                	
+	                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="" class="block-20 d-flex align-items-end" style="background-image: url('images/laparo2.jpg');">
+								<div class="meta-date text-center p-2"> <!--blog-single.html-->
+                  <span class="day"></span>
+                  <span class="mos">Noviembre</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#"></a>Inaguración Laparoscopía</h3>
+                <p></p>
+                <div class="d-flex align-items-center mt-4">
+	                
+	                <p class="ml-auto mb-0">
+	                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/directorio2.jpg);" data-stellar-background-ratio="0.5">
-    	
-    	
-    </section>
-
+			</div>
+		</section>
 
 		<section class="ftco-gallery">
     	<div class="container-wrap">
     		<div class="row no-gutters">
-					<div class="col-md-12 ftco-animate">
-
-						<a href="images/direc.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/direc.jpg);">
+					<div class="col-md-3 ftco-animate">
+						<a href="images/enfermeras.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/enfermeras.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
 						</a>
 					</div>
-					
-					
-					
+					<div class="col-md-3 ftco-animate">
+						<a href="images/docs.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/docs.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/paty.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/paty.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/cmnbm.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/cmnbm.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
         </div>
     	</div>
     </section>
 
 		
-     <footer class="ftco-footer ftco-bg-white ftco-section">
+    <footer class="ftco-footer ftco-bg-white ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-6 col-lg-3">
@@ -391,7 +755,7 @@
             <div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2 mb-0">Conectate con nosotros</h2>
             	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="https://www.facebook.com/CMNBm/?ref=bookmarks"><span class="icon-facebook"></span></a></li>
+            	<li class="ftco-animate"><a href="https://www.facebook.com/CMNBm/?ref=bookmarks"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.youtube.com/channel/UCup1QYkDOlJ8wloUZG9X-MA"><span class="icon-youtube"></span></a></li>
               </ul>
             </div>
@@ -407,6 +771,7 @@
         </div>
       </div>
     </footer>
+    
   
 
   <!-- loader -->
