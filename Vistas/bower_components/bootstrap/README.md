@@ -44,24 +44,24 @@ Within the download you'll find the following directories and files, logically g
 
 ```
 bootstrap/
-â”œâ”€â”€ css/
-â”‚   â”œâ”€â”€ bootstrap.css
-â”‚   â”œâ”€â”€ bootstrap.css.map
-â”‚   â”œâ”€â”€ bootstrap.min.css
-â”‚   â”œâ”€â”€ bootstrap.min.css.map
-â”‚   â”œâ”€â”€ bootstrap-theme.css
-â”‚   â”œâ”€â”€ bootstrap-theme.css.map
-â”‚   â”œâ”€â”€ bootstrap-theme.min.css
-â”‚   â””â”€â”€ bootstrap-theme.min.css.map
-â”œâ”€â”€ js/
-â”‚   â”œâ”€â”€ bootstrap.js
-â”‚   â””â”€â”€ bootstrap.min.js
-â””â”€â”€ fonts/
-    â”œâ”€â”€ glyphicons-halflings-regular.eot
-    â”œâ”€â”€ glyphicons-halflings-regular.svg
-    â”œâ”€â”€ glyphicons-halflings-regular.ttf
-    â”œâ”€â”€ glyphicons-halflings-regular.woff
-    â””â”€â”€ glyphicons-halflings-regular.woff2
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap.min.css.map
+│   ├── bootstrap-theme.css
+│   ├── bootstrap-theme.css.map
+│   ├── bootstrap-theme.min.css
+│   └── bootstrap-theme.min.css.map
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    ├── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff2
 ```
 
 We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developer.chrome.com/devtools/docs/css-preprocessors) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Fonts from Glyphicons are included, as is the optional Bootstrap theme.
@@ -83,7 +83,7 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 1. If necessary, [install Jekyll](http://jekyllrb.com/docs/installation) and other Ruby dependencies with `bundle install`.
    **Note for Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
 2. From the root `/bootstrap` directory, run `bundle exec jekyll serve` in the command line.
-4. Open `http://localhost:9001` in your browser, and voilÃ .
+4. Open `http://localhost:9001` in your browser, and voilà.
 
 Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
 
